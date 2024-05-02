@@ -5,3 +5,18 @@ git init
 git add .
 git status
 clear
+git commit -m "Добавление всех файлов в локальный репозиторий"
+git branch new-branch 
+git checkout new-branch
+git status
+clear
+На новой ветке создал папку blog с файлами внутри index.html и index.js
+git add .
+git commit -m "Добавление файлов из новой ветки new-branch"
+git checkout master
+Добавление файла README.md и его небольшое заполнение
+git add .
+git commit -m "Добавление файла README"
+git remote add origin https://github.com/MaximGerasimov1/my-project
+git branch -M title
+git push -u origin title
