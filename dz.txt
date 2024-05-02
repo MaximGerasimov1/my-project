@@ -1,0 +1,7 @@
+git --version
+git init
+Создал папки bin, admin, config, в которые добавил несколько файлов и 3 файла с расширением sass
+Создал файл .gitignore, в котором прописал нужные требования(*.sass, bin/, admin/, config/)
+git add .
+git status
+clear
