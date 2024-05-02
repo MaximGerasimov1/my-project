@@ -20,3 +20,6 @@ git commit -m "Добавление файла README"
 git remote add origin https://github.com/MaximGerasimov1/my-project
 git branch -M title
 git push -u origin title
+git add dz.txt
+git commit -m "Добавление изменённого файла dz.txt"
+git push
